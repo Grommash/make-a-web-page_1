@@ -1,0 +1,53 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Modern;
+}
+
+body {
+    background-color: black;
+    font-family: Georgia;
+    padding: 20px 10px;
+	  max-width: 2000px;
+	  margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.envelope {
+    background-color: #808080;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.stage {
+    background-color: #006400;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lesson {
+    background-color: #993D00;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+h2 {
+	margin: 10px;
+}
+
+img {
+  min-height:100%;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}

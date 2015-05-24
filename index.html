@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html >
+  <head>
+   <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <title>My IPND stage summaries and notes</title>
+  </head>
+ <body>
+   <h1 class="title">My IPND stage summaries and notes</h1>
+  <div class="envelope">
+   <!-- I decided to have my images from servers across the world, not a folder -->
+      <div>
+         <IMG SRC="http://www.techcricklets.com/wp-content/uploads/2014/11/30-Facts-About-Internet-That-You-Might-Not-Know.jpg" 
+              alt="A representation of the world wide web"
+              width="780" 
+              height="350">
+      </div>
+      <div class="stage">
+      <h2>Stage 1, Lesson 1: Basics of the web and HTML</h2>
+        <div class="lesson">
+        <IMG SRC=http://i58.tinypic.com/t5rmdl.png
+              width="730" 
+              height="250"
+              alt="A scheme of the world wide web">
+              <ol>
+                <li>
+                  "www" or
+                  <em>
+                    world wide web
+                  </em>
+                  is a collection of HTML documents
+                </li>
+                <li>
+                  HTML stands for hyper text markup language
+                </li>
+                <li>
+                  Hyper links are connections to a specific HTML document, shortly known just as - links.
+                </li>
+                <li>
+                  Using a computer with a browser software installed a person can access files on the internet (usually represented as a vast cloud of information) which are stored on servers across the globe.
+                </li>
+                <li>
+                  HTML is made of
+                  <ol>
+                    <li>
+                      What a user can see - text content
+                    </li>
+                    <li>
+                      What it actually looks like - markup
+                    </li>
+                    <li>
+                      References to other documents - e.g. images or videos
+                    </li>
+                  </ol>
+                  <li>
+                    Plain text in HTML is shown as plain text.
+                  </li>
+                </ol>
+              </div>
+            </div>
+  <div class="stage">
+      <h2>Stage 1, Lesson 2: HTML markup nad documents</h2>
+      <div class="lesson">
+        <p>
+          <b>
+            HTML markup is made of tags
+          </b>
+          /NAME/CONTENTS//NAME/
+          <br>
+          Instead of "/" the tags in coding are written with ">" signs. One before and expanding, and one after and closing. The content is surrounded by an opening and a closing tag. Each tag has a name that the sotware recognizes. A slash is always in front of the name of the closing tag. Some tags are
+          <em>
+            void tags
+          </em>
+          so they don`t require a closing tag. The entire line can be called an element.
+        </p>
+        <p>
+          <b>
+            HTML tags are various and provide a vast array of options for users.
+          </b><br>
+          You can create invisible boxes to organise texts, add links, contain additional contents and so on. The HTML document consists of
+          <em>
+            html tag
+          </em>surrounding the whole document, the
+          <em>
+            head
+          </em> which has meta-data, the
+          <em>
+            title
+          </em> and the body of the html. Among the most important tags are "/span/ >" and "/div/". Both contain elements but the first one does it inline while the other one always has a separate line. Thus a "div" is a block level, meaning it's on its own separate line while a span is inline, so it's a child of another block level element.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="envelope">
+    <div class="stage">
+      <h2>Stage 2, Lesson 1: Creating a Structured Document with HTML</h2>
+      <div class="lesson">
+      <ol>
+        <li>
+          <p>
+            <b>Developer Tools (in the Browser)
+            </b>
+          </p>
+            HTML elements are either inline or block. Block elements form an
+            <em>
+              invisible box
+            </em>
+              around the content inside of them. Thus they contain the content and can be used to manipulate it in many ways.
+        </li>
+        <li>
+          <p>
+            <b>
+                  The "tree-like structure" of HTML
+                </b>
+              </p>
+              <p>
+                When programmers talk about the "DOM" (document object model) they are talking about the the tree-like structure of a page. The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. These relationships can be interpreted as a 
+                <em>
+                  tree like structure
+                </em> which it actually forms though in a complex manner. All elements are connected in one way or another, if nothing else all elements within this document are 
+                <em>
+                  sons
+                </em> and 
+                <em>
+                  daughters
+                </em> of the /body/ element which encompasses all of them.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>The relationship between indented HTML and boxes</b>
+              </p>
+              <p>
+                This structure both shows the specific positions of elements and contents and can be used to better manipulate them. When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested it's corresponding "box" is.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b> Text Editors (for programming)
+                </b>
+              </p>
+              <p>
+                When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+              </p>
+            </li>
+            </ol>
+          </div>
+        </div>
+    <div class="stage">
+      <h2>Stage 2, Lesson 2: CSS</h2>
+      <div class="lesson">
+        <ol>
+         <li>
+           <p>
+             <b>What is CSS?</b>
+           </p>
+        CSS stands for Cascading Style Sheets. CSS is code written to control the "style" of HTML elements. It can change how elements look, their position, color, font and may other things.</li>
+        <li>
+          <p>
+            <b>How does CSS "control" HTML?</b></p>
+          If you want to write CSS that makes all h1 elements have a black background and white text, you would write:
+          <br>
+          h1 {<br>
+          background-color : black;<br>
+          color: white;<br>
+          }<br>
+          
+          In this example, the h1 is a selector. It says to the browser "I want you to apply the rules I'm about to tell you to every h1 element." After the h1 there is left a curly brace { and at the bottom there is a matching right curly brace }. Everything between these curly braces will be interpreted as a "rule" that should be applied to every h1 element. The line of code that says background-color:black; is a declaration. bacground-color is a property and black is the value of that property.</li>
+          <li>
+            <p>
+              <b>Selecting by class</b>
+            </p>
+            <p>If we only want to add style to certain h1s, we can use class selectors.</p>
+          </li>
+        <li>
+          <p>
+            <b>Three ways of including CSS styling in a web page:</b>
+          </p>
+            <ol>
+              <li>
+                <p>
+                  <b> Write CSS in the /head/ of your html.</b><br> This is good for small projects. At the top of your html add a /head/ element. Inside the /head/ element add a /style/ element. Write your CSS element and then put the html for the rest of your page below.</p>
+              </li>
+              <li>
+                <p>
+                  <b> Link your html to a separate CSS file</b><br> Write all of your structural html in one file (ex. main.html). In a separate file (ex. main.css) put all of your CSS code. Add a /head/ element to the top of your html document. Add a /link/ tag inside the head element (keep in mind link is a void tag!). Finally, add the following attributes to your /link/ : *rel="stylesheet", *type="text/css", *href="main.css"
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>Write your style inline with html<br>
+                  </b> With this method you modify the style atributes of every individual element.
+                </p>
+              </li>
+          </ol>
+         </li>
+        </ol>
+      </div>
+  </div>
+    <div class="stage">
+      <h2>Stage 2, Lesson 3: Avoiding repetition and the box model</h2>
+      <div class="lesson">
+        <p>
+          <b>1. The box model
+          </b><br>
+          <!-- I decided to have my images from servers across the world, not a folder -->
+          <IMG SRC="http://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif"
+                 width="500" 
+                 height="350"
+                 alt="The image shows a box model in CSS">
+              <p>
+                Analysing this diagram shows us that the content or the "nucleus" is protected by margins. The padding area clears the area around the content. The border is simply bordering it all and the final margin is the space between other boxes.
+              </p>
+                <p>
+                  <b>2.Avoiding Repetition</b>
+              <p>
+                Avoiding repetition is important for a variety of reasons.
+                The first is avoiding errors: when programmers don't avoid repetition, they will often have to do the same thing over and over and make mistakes. This may mean copying and pasting certain style attributes into many HTML elements or rewriting the same code with just minor differences many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears they will have issues of various degree. Another reason is consistency: Instead of manually giving each segment of codes the same style, each of them can be assigned the same "div" and the same "class" and then specify the style for that class in only one place! By avoiding repetion, it's then very easy for to make changes to style.
+              </p>
+            </div>
+          </div>
+        </div>
+ </body>
+</html>
